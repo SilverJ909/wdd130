@@ -1,0 +1,42 @@
+
+
+h1 {
+    color: white;
+    font: sans-serif;
+}
+
+h1:hover {
+    color: black;
+}
+
+#quote_one {
+    color: white;
+}
+
+#quote_reference {
+    color: white;
+}
+
+ol {
+    color: black;
+}
+
+img {
+    size: 50%;
+}
+
+#quote_two {
+    color: white;
+}
+
+#name {
+    color: white;
+}
+
+#title {
+    color: white;
+}
+
+* {
+    margin: 0 auto;
+}
