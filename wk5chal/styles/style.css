@@ -1,0 +1,8 @@
+div {
+    background-color: gray;
+}
+
+.bottom-image {
+    border-radius: 50%;
+    display: inline-block;
+}
