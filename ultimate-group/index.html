@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Fists of Smash</title>
 </head>
 <body>
     <header>
-        <img src="images/Fists of Smash-logos.jpeg" alt="Group-Logo">
+        <img src="images/Fists of Smash-logos.jpeg" alt="Group-Logo" class="logo">
         <nav>
-            <a href="ultimate-group/index.html">Home</a>
-            <a href="uttimate-group/join.html">Join Us</a>
-            <a href="ultimate-group/events">Events</a>
-            <form action="action_page.php" method="post">
-                <div class="imgcontainer">
-                  <img src="img_avatar2.png" alt="Avatar" class="avatar">
-                </div>
-              
-                <div class="container">
-                  <label for="uname"><b>Username</b></label>
-                  <input type="text" placeholder="Enter Username" name="uname" required>
-              
-                  <label for="psw"><b>Password</b></label>
-                  <input type="password" placeholder="Enter Password" name="psw" required>
-              
-                  <button type="submit">Login</button>
-                  <label>
-                    <input type="checkbox" checked="checked" name="remember"> Remember me
-                  </label>
-                </div>
-              
-                <div class="container" style="background-color:#f1f1f1">
-                  <button type="button" class="cancelbtn">Cancel</button>
-                  <span class="psw">Forgot <a href="#">password?</a></span>
-                </div>
-            </form>
+            <a href="index.html">Home</a>
+            <a href="join.html">Join Us</a>
+            <a href="events.html">Events</a>
         </nav>
     </header>
+    <form action="action_page.php" method="post">
+        <div class="imgcontainer">
+          <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
     <main>
         <div>
             <img src="images/Smash-poster.jpg" alt="Smash-Roster">
@@ -58,7 +59,7 @@
                 <img src="images/instagram.png" alt="instagram icon">
             </a>
             <a href="https://discord.com">
-                <img src="images/discord.jpg">
+                <img src="images/discord.jpg" class="discord-image">
             </a>
         </div>
     </footer>
