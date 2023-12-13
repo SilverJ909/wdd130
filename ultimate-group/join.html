@@ -1,54 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles/join.css" 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Join Us | Fist of Smash</title>
 </head>
 <body>
     <header>
-        <img src="images/Fists of Smash-logos.jpeg" alt="Group-Logo">
+        <img src="images/Fists of Smash-logos.jpeg" alt="Group-Logo" class="logo">
         <nav>
-            <a href="ultimate-group/index.html">Home</a>
-            <a href="uttimate-group/join.html">Join Us</a>
-            <a href="ultimate-group/events">Events</a>
-            <form action="action_page.php" method="post">
-                <div class="imgcontainer">
-                  <img src="img_avatar2.png" alt="Avatar" class="avatar">
-                </div>
-              
-                <div class="container">
-                  <label for="uname"><b>Username</b></label>
-                  <input type="text" placeholder="Enter Username" name="uname" required>
-              
-                  <label for="psw"><b>Password</b></label>
-                  <input type="password" placeholder="Enter Password" name="psw" required>
-              
-                  <button type="submit">Login</button>
-                  <label>
-                    <input type="checkbox" checked="checked" name="remember"> Remember me
-                  </label>
-                </div>
-              
-                <div class="container" style="background-color:#f1f1f1">
-                  <button type="button" class="cancelbtn">Cancel</button>
-                  <span class="psw">Forgot <a href="#">password?</a></span>
-                </div>
-            </form>
+            <a href="index.html">Home</a>
+            <a href="join.html">Join Us</a>
+            <a href="events.html">Events</a>
+            
         </nav>
     </header>
+    <form action="action_page.php" method="post">
+        <div class="imgcontainer">
+          <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
     <main>
-        <img src="images/Mario.avif" alt="Mario Image">
+        <img src="images/Mario.avif" alt="Mario Image" class="mario">
         <p>This is where you can sign up to be a TO (tournament organizer) or simply sign up for any upcoming tournaments. A TO is a person who will set up the tournament's events including tasks like setting up a time and location for the event, making sure they get enough people to bring their systems so that we can end the tournament on time, and then setting up the bracket on start.gg for people to sign up. Once everything is set then they can determine who will fight who using the bracket. You can also go to this link to go to the start.gg for the most recent tournament.</p>
         <div>
-            <div class="sign-up">
+            <div id="tournament">
                 <p>Sign up for tournaments</p>
                 <a href="https://www.start.gg/">
                     <button type="button">Sign Up</button>
                 </a>
             </div>
             <img src="images/Bracket.jpg">
-            <div class="sign-up">
+            <div id="to-sign-up">
                 <p>Sign up to be a TO</p>
                 <a href="https://forms.gle/vbu4waTjGbMzBDfB9">
                     <button type="button">Sign Up</button>

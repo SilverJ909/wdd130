@@ -69,3 +69,100 @@ form {
       width: 100%;
     }
   }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  img.logo {
+    width:80px;
+  }
+
+  nav a {
+    text-align: center;
+    color:rgba(20,30,13, .7);
+    text-decoration: none;
+    padding: 35px;
+  }
+
+  header {
+    background-color:#F17105;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+  
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr;
+    background-color: #F17105;
+    column-gap: 100px;
+  }
+  
+  footer img {
+    width: 50%;
+  }
+  
+  footer h2 {
+    width: 50%;
+    columns: 1;
+  }
+  
+  footer .social {
+    columns: 3;
+  }
+  
+  footer p {
+    columns: 2;
+  }
+
+
+main .mario {
+    width: 25%;
+    display: block;
+    margin: auto;
+}
+
+main p {
+    text-align: center;
+}
+
+main div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+main #tournament {
+    columns: 1;
+    width: 1fr;
+    display: block;
+    border-style: solid;
+}
+
+main #tournament button {
+    margin-top: 100px;
+}
+
+main div img {
+    columns: 2;
+    width: 100%;
+}
+
+main #to-sign-up {
+    columns: 3;
+    width: 1fr;
+    display: block;
+    border-style: solid;
+}
+
+main #to-sign-up p {
+    width: 200%;
+    text-align: center;
+    margin-left: 50px;
+}
+
+main #to-sign-up button{
+    margin-top: 150px;
+    width: 100%;
+}
