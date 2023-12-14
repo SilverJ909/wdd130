@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles/events.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events | Fists of Smash</title>
 </head>
 <body>
     <header>
-        <img src="images/Fists of Smash-logos.jpeg" alt="Group-Logo" class="logo">
+        <img src="images/FistsOfSmash-logos.jpeg" alt="Group-Logo" class="logo">
         <nav>
-            <a href="ultimate-group/index.html">Home</a>
-            <a href="uttimate-group/join.html">Join Us</a>
-            <a href="ultimate-group/events">Events</a>
+            <a href="index.html">Home</a>
+            <a href="join.html">Join Us</a>
+            <a href="events.html">Events</a>
         </nav>
     </header>
     <form action="action_page.php" method="post">
@@ -21,10 +22,10 @@
       
         <div class="container">
           <label for="uname"><b>Username</b></label>
-          <input type="text" placeholder="Enter Username" name="uname" required>
+          <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
       
           <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
       
           <button type="submit">Login</button>
           <label>
@@ -38,17 +39,25 @@
         </div>
     </form>
     <main>
-        <img src="images/Events.jpg" alt="event pic">
-        <h3>Upcoming Events</h3>
-        <img src="images/Square Characters.jpg" alt="square-characters">
-        <div class="event">
-            <p>Lorem ipsum dolor sit amet</p>
+        <div class="top-part">
+            <img src="images/Events.jpg" alt="event pic" class="events">
+            <h3>Upcoming Events</h3>
+            <img src="images/SquareCharacters.jpg" alt="square-characters" class="square">
         </div>
         <div class="event">
-            <p>Lorem ipsum dolor sit amet</p>
+            <p class="event-title">Christmas Tournament</p>
+            <p>Date: December 23, 2023 7:00 pm</p>
+            <p>9090 New Street Rexburg, Idaho 83440</p>
         </div>
         <div class="event">
-            <p>Lorem ipsum dolor sit amet</p>
+            <p class="event-title">New Year, New League</p>
+            <p>Date: January 1, 2024</p>
+            <p>9090 New Street Rexburg, Idaho 83440</p>
+        </div>
+        <div class="event">
+            <p class="event-title">Pre-Winter Semester Face-off</p>
+            <p>Date: January 6, 2024</p>
+            <p>9090 New Street Rexburg, Idaho 83440</p>
         </div>
         <p>If you want to contact the group specifically about these opportunities, you can also go to the discord to talk to the whole group about that. This server can also give you a chance to interact with everyone and help others play the game better. Link to the discord server is down below on the discord image.</p>
     </main>
@@ -66,7 +75,7 @@
                 <img src="images/instagram.png" alt="instagram icon">
             </a>
             <a href="https://discord.com">
-                <img src="images/discord.jpg">
+                <img src="images/discord.jpg" alt="discord-icon">
             </a>
         </div>
     </footer>
