@@ -139,9 +139,13 @@ main #tournament {
     border-style: solid;
 }
 
-main #tournament a {
-    margin-top: 500px;
+main #tournament p {
+  margin-top: 100px;
+}
 
+main #tournament a {
+  margin-bottom: 100px;
+  margin-left: 100px;
 }
 
 main div img {
@@ -159,12 +163,8 @@ main #to-sign-up {
 main #to-sign-up p {
     width: 200%;
     text-align: center;
+    margin-top: 100px;
     margin-left: 50px;
-}
-
-main #to-sign-up a{
-    margin-top: 150px;
-    width: 100%;
 }
 
 nav a:hover {
