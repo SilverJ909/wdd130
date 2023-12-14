@@ -139,8 +139,9 @@ main #tournament {
     border-style: solid;
 }
 
-main #tournament button {
-    margin-top: 100px;
+main #tournament a {
+    margin-top: 500px;
+
 }
 
 main div img {
@@ -161,7 +162,12 @@ main #to-sign-up p {
     margin-left: 50px;
 }
 
-main #to-sign-up button{
+main #to-sign-up a{
     margin-top: 150px;
     width: 100%;
+}
+
+nav a:hover {
+  background-color: black;
+  color: #6610F2;
 }

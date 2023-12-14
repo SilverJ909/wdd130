@@ -116,3 +116,37 @@ form {
   footer p {
     columns: 2;
   }
+
+main .top-part {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 525px;
+}
+
+main .event {
+  border-style: solid;
+  font-size: 20px;
+}
+
+main .top-part .events {
+    columns: 1;
+}
+
+main .top-part h3 {
+    columns: 2;
+    font-size: 30px;
+}
+
+main .top-part .square {
+    columns: 3;
+    height: 80%;
+}
+
+main .event-title {
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: black;
+  color: #6610F2;
+}
